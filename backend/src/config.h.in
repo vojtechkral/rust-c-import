@@ -1,0 +1,2 @@
+
+#cmakedefine INCLUDE_PATHS @INCLUDE_PATHS@

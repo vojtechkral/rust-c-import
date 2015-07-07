@@ -1,0 +1,4 @@
+You can build the `clang-rust-import` import tool in here like this:
+
+cmake -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ ..
+make

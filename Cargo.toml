@@ -1,0 +1,13 @@
+[package]
+name = "c_import"
+version = "0.1.0"
+authors = ["Vojtech Kral <vojtech@kral.hk>"]
+
+[lib]
+name = "c_import"
+crate-type = ["dylib"]
+plugin = true
+
+[dependencies]
+#libc = "0.1.8"
+rustc-serialize = "0.3"
